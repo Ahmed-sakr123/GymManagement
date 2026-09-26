@@ -43,9 +43,9 @@ namespace GymManagementPL
 			builder.Services.AddScoped<ITrainerService, TrainerService>();
 			builder.Services.AddScoped<IPlanService, PlanService>();
 			builder.Services.AddScoped<ISessionService, SessionService>();
-			builder.Services.AddScoped<IMembershipService, MembershipService>();
-			builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
-			builder.Services.AddScoped<IBookingService, BookingService>();
+            builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
+
+            builder.Services.AddScoped<IBookingService, BookingService>();
 			builder.Services.AddScoped<IAttachmentService, AttachmentService>();
 
 

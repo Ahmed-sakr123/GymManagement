@@ -38,14 +38,14 @@ namespace GymManagementDAL.Data.DataSeed
 				{
 					var MainAdmin = new ApplicationUser()
 					{
-						FirstName = "Aliaa",
-						LastName = "Tarek",
-						UserName = "AliaaTarek",
-						Email = "Aliaatarek@gmail.com",
-						PhoneNumber = "01123652635"
+						FirstName = "Ahmed",
+						LastName = "Sakr",
+						UserName = "Ahmed_Sakr121",
+						Email = "AhmedSakr121@gmail.com",
+						PhoneNumber = "01068137855"
 					};
 
-					await userManager.CreateAsync(MainAdmin, "P@ssw0rd");
+					await userManager.CreateAsync(MainAdmin, "As10103010.");
 					await userManager.AddToRoleAsync(MainAdmin, "SuperAdmin");
 
 					var Admin01 = new ApplicationUser()

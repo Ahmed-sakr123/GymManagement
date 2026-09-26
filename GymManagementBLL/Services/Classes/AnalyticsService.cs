@@ -1,5 +1,10 @@
-﻿using GymManagementBLL.Services.Interfaces;
+﻿using AutoMapper;
+using GymManagementBLL.Common;
+using GymManagementBLL.Services.Interfaces;
 using GymManagementBLL.ViewModels.AnalyticsViewModels;
+using GymManagementBLL.ViewModels.BookingViewModels;
+using GymManagementBLL.ViewModels.MembershipViewModels;
+using GymManagementBLL.ViewModels.SessionViewModels;
 using GymManagementDAL.Entities;
 using GymManagementDAL.Repositories.Interfaces;
 
