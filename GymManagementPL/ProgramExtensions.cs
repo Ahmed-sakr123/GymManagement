@@ -18,6 +18,7 @@ namespace GymManagementPL
             var config = scope.ServiceProvider.GetRequiredService<IConfiguration>();
 
 
+
             var pending = await dbContext.Database.GetPendingMigrationsAsync();
             if (pending.Any())
             {

@@ -72,8 +72,8 @@ namespace GymManagementPL
 				options.AccessDeniedPath = "/Account/AccessDenied";
 			});// Default Paths
 
-
-			var app = builder.Build();
+            builder.Services.AddScoped<IMembershipService, MembershipService>();
+            var app = builder.Build();
 
 			await app.MigrateAndSeedAsync();
 
